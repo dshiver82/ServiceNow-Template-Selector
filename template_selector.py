@@ -1,6 +1,8 @@
 #!python
 import pyperclip
 
+# Usage :  Open command prompt, browse to directory script is stored in. c:\<dir>>py template_selector.py
+
 # Begin Program Loop
 while True:
 
@@ -45,22 +47,22 @@ while True:
         pyperclip.copy('Username: ' + '\n' + 'Contact:' + '\n' + 'Location: ' + '\n' + '\n' + 'Issue: '
                        + '\n' + '\n' + 'Troubleshooting: ')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # Break / Fix
     elif answer == 2:
         pyperclip.copy('Username: ' + '\n' + 'Description of Problem:' + '\n' + 'Asset Tag: ' + '\n' + 'Hostname: '
                        + '\n' + 'Make/Model: '
-                       + '\n' + 'Serial Number: ' + '\n' + 'Warranty End: ' + '\n'
-                       + 'Support Method: ' + '\n' + 'ODLSS Device: '
+                       + '\n' + 'Serial Number: ' + '\n' + 'Warranty End: '
+                       + '\n' + 'Support Method: ' + '\n' + 'ODLSS Device: '
                        + '\n' + 'School Name and Address: ' + '\n' + 'Site Contact Name/Number: '
                        + '\n' + 'Access Hours: '
                        + '\n' + 'Physical Location of Device: ' + '\n' + 'Troubleshooting: '
                        + '\n' + '(Dell) Express Service Code'
                        + '\n' + 'Additional Information: ')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # Network Template
@@ -75,7 +77,7 @@ while True:
             + '\n' + 'MAC addresses of at least 2 machines affected: '
             + '\n' + 'Detailed description of the problem: ' + '\n' + 'Attempted troubleshooting: ')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # Aspen Template
@@ -85,24 +87,22 @@ while True:
             + '\n' + 'Specific error message: ' + '\n' + 'Steps Taken (Tabs clicked): '
             + '\n' + 'Report Name: ' + '\n' + 'Attempted troubleshooting: ')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # Aspen Grade Issue Template
     elif answer == 5:
-        pyperclip.copy(
-            'Username: ' + '\n' + 'Students Name: ' + '\n' + 'Student IDs: '
+        pyperclip.copy('Username: ' + '\n' + 'Students Name: ' + '\n' + 'Student IDs: '
             + '\n' + 'Homeroom: ' + '\n' + 'Related Teacher Name: '
             + '\n' + 'Class Name: ' + '\n' + 'What grade is the user reporting is inaccurate?: '
             + '\n' + 'What grade is the user reporting is accurate?: ' + '\n' + 'Detailed description of the problem: ')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # SSM Template
     elif answer == 6:
-        pyperclip.copy(
-            'Username: ' + '\n' + 'Student ID: ' + '\n' + 'Role user is calling with: '
+        pyperclip.copy('Username: ' + '\n' + 'Student ID: ' + '\n' + 'Role user is calling with: '
             + '\n' + 'Which document(s) is the user receiving an error in? '
             + '\n' + 'What type of evaluation is this? (special, triennial, or annual) '
             + '\n' + 'What is the error? (Full window screenshots preferred with report name/section/error included ) '
@@ -111,7 +111,7 @@ while True:
             + '\n' + 'Which report(s) does the user have concerns with? (Screenshots preferred) '
             + '\n' + 'Detailed description of the problem: ' + '\n' + 'Attempted troubleshooting: ')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # VPN Template
@@ -123,7 +123,7 @@ while True:
             + '\n' + 'Attempted Troubleshooting: '
             + '\n' + '(Any permissions issues need to be routed to Self Service)')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # Printer Install
@@ -135,7 +135,7 @@ while True:
                        + '\n' + 'Computer OS:  '
                        + '\n' + 'Computer Asset Tag: ' + '\n' + 'Computer Host Name: ')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # Provide Information to End User
@@ -147,7 +147,7 @@ while True:
                        + '\n' + '\n'
                        + 'Thank you,' + '\n' + 'CPS Service Desk' + '\n' + '(773) 553-3925')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # Obtain Information - 1st Attempt
@@ -159,7 +159,7 @@ while True:
                        + '\n' + '\n'
                        + 'Thank you,' + '\n' + 'CPS Service Desk' + '\n' + '(773) 553-3925')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # Obtain Information - 2nd Attempt
@@ -172,7 +172,7 @@ while True:
                       + 'Please note this is our final attempt to obtain this information. If we do not hear from you within 24 hours we will close this request.'
                       + 'Thank you,' + '\n' + 'CPS Service Desk' + '\n' + '(773) 553-3925')
         print('\n')
-        print('Template copied to clipboard!')
+        print('TEMPLATE COPIED TO CLIPBOARD!')
         print('\n')
 
     # Ticket Closure due to No Response
